@@ -1,0 +1,228 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5f6ff;
+}
+
+.bus-nav{
+background:linear-gradient(to right,#7b7cff,#a29bfe);
+padding:10px 0;
+}
+
+.nav-link{
+color:white !important;
+font-weight:500;
+margin-right:15px;
+}
+
+.nav-link:hover{
+color:#ffe600 !important;
+}
+
+.login-btn{
+background:#2e2eff;
+color:white;
+border:none;
+padding:7px 20px;
+border-radius:20px;
+font-weight:500;
+}
+
+.login-btn:hover{
+background:rgb(49, 29, 158);
+}
+
+/* HERO SECTION */
+
+.hero-section{
+height:85vh;
+background:url("hero.jpg") center/cover no-repeat;
+position:relative;
+display:flex;
+align-items:center;
+}
+
+.hero-overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.45);
+}
+
+.hero-content{
+position:relative;
+color:white;
+max-width:450px;
+padding-right:12px;
+}
+
+.hero-content h1{
+font-size:38px;
+font-weight:bold;
+margin-bottom:15px;
+}
+
+.hero-content p{
+line-height:26px;
+margin-bottom:25px;
+}
+
+.hero-btn{
+background:#4b4bff;
+color:white;
+border:none;
+padding:12px 28px;
+border-radius:25px;
+font-weight:600;
+}
+
+.hero-btn:hover{
+background:rgb(49, 29, 158);
+}
+
+/* OFFER BOX */
+
+.offer-img{
+width:100%;
+border-radius:12px;
+box-shadow:0 4px 8px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.offer-img:hover{
+transform:scale(1.05);
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+filter:invert(1);
+}
+
+/* WHY LIST */
+
+.why-list {
+padding-left: 18px;
+}
+
+.why-list li {
+margin-bottom: 15px;
+font-size: 16px;
+}
+
+.why-list ul {
+margin-top: 5px;
+padding-left: 20px;
+}
+
+.why-list ul li {
+font-size: 14px;
+color: #555;
+}
+
+
+/* REVIEWS */
+
+.review-box{
+background:#dfe0f7;
+padding:20px;
+border-radius:20px;
+text-align:center;
+height:100%;
+}
+
+.review-box img{
+width:60px;
+height:60px;
+border-radius:50%;
+border:3px solid #4b4bff;
+margin-bottom:10px;
+}
+
+.review-box p{
+font-size:14px;
+color:#333;
+}
+
+
+/* APP DOWNLOAD SECTION */
+
+.app-section{
+background:#f5f6ff;   
+padding:40px 0;
+}
+
+.app-btn:hover{
+background:rgb(49, 29, 158);
+}
+
+.app-box{
+background:#f5f6ff;
+max-width:1200px;   
+margin:auto;       
+padding:20px 30px;
+border: 2px solid #2d2eff ;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* BUTTON */
+
+.app-btn{
+background:#2d2eff;
+color:white;
+border:none;
+padding:8px 22px;
+border-radius:25px;
+font-weight:bold;
+}
+
+
+.bus-footer{
+background:black;
+color:white;
+padding:70px 0 20px;   /* TOP SPACE BADHAYA */
+}
+
+
+
+.footer-btn-box{
+text-align:center;
+margin-top:-45px;   
+margin-bottom:25px;
+}
+
+.footer-btn{
+background:#3f44ff;
+color:white;
+border:none;
+padding:8px 30px;
+border-radius:25px;
+font-weight:bold;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+.footer-copy{
+text-align:center;
+font-size:13px;
+color:#aaa;
+margin-top:10px;
+}
+
+.footer-btn:hover{
+background:rgb(49, 29, 158);
+}
+
+
+.review-box p i{
+color:#ffc107;
+font-size:15px;
+margin-right:2px;
+}
