@@ -11,27 +11,43 @@
 
 <body>
 
-<!-- NAVBAR SAME -->
+<!-- NAVBAR -->
+ 
 <nav class="navbar navbar-expand-lg bus-nav">
 <div class="container">
-
 <a class="navbar-brand">
 <img src="logo.png" height="60">
 </a>
 
-<div class="collapse navbar-collapse justify-content-end">
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse justify-content-end" id="menu">
 <ul class="navbar-nav align-items-center">
 
-<li class="nav-item"><a class="nav-link" href="Busly.html">Home</a></li>
-<li class="nav-item"><a class="nav-link active" href="#"><b>Routes</b></a></li>
-<li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
-<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<li class="nav-item">
+<a class="nav-link" href="Busly.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="routes.html">Routes</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="offers.html">Offers</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
 
 <li class="nav-item ms-3">
-<button class="login-btn">Login</button>
+<a href="login.html" class="login-btn">Login</a>
 </li>
 
 </ul>
+
 </div>
 </div>
 </nav>
@@ -137,6 +153,74 @@
 </div>
 
 </section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bus-footer">
+
+<div class="footer-btn-box">
+<a href="routes.html" class="footer-btn">BOOK NOW</a>
+</div>
+
+<div class="container">
+
+<div class="row mt-4">
+
+<div class="col-md-3 col-6">
+<h6>About BUSLY</h6>
+<ul>
+<li><a href="Busly.html">Home</a></li>
+<li><a href="routes.html">Routes</a></li>
+<li><a href="offers.html">Offers</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<div class="col-md-3 col-6">
+<h6>Info</h6>
+<ul>
+<li>T&C</li>
+<li>Privacy Policy</li>
+<li>Blog</li>
+<li>Bus Operator Registration</li>
+<li>Agent Registration</li>
+<li>Insurance Partner</li>
+<li>User Agreement</li>
+<li>Primo Bus</li>
+<li>Bus Time Table</li>
+<li>Report Security Issues</li>
+</ul>
+</div>
+
+<div class="col-md-3 col-6">
+<h6>Services</h6>
+<ul>
+<li>Bus Booking</li>
+<li>Offers & Discounts</li>
+<li>Popular Routes</li>
+<li>Corporate Bookings</li>
+<li>Cancellation & Refund Policy</li>
+<li>Help Center</li>
+</ul>
+</div>
+
+<div class="col-md-3 col-6">
+<h6>Our Partner</h6>
+<ul>
+<li>Trusted by 1M+ users</li>
+<li>Major bus operators</li>
+<li>Government approved</li>
+<li>ISO certified</li>
+</ul>
+</div>
+
+</div>
+
+<p class="footer-copy">© 2025 Busly. All rights reserved.</p>
+
+</div>
+
+</footer>
 
 </body>
 </html>

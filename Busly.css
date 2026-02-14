@@ -9,6 +9,8 @@ body{
 background:#f5f6ff;
 }
 
+/* NAVBAR */
+
 .bus-nav{
 background:linear-gradient(to right,#7b7cff,#a29bfe);
 padding:10px 0;
@@ -21,10 +23,13 @@ margin-right:15px;
 }
 
 .nav-link:hover{
-color:#ffe600 !important;
+color:#ffcc00 !important;
 }
 
+/* LOGIN BUTTON */
+
 .login-btn{
+text-decoration: none;
 background:#2e2eff;
 color:white;
 border:none;
@@ -35,6 +40,13 @@ font-weight:500;
 
 .login-btn:hover{
 background:rgb(49, 29, 158);
+}
+
+.login-box {
+  width: 350px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 /* HERO SECTION */
@@ -75,6 +87,7 @@ margin-bottom:25px;
 }
 
 .hero-btn{
+text-decoration: none;
 background:#4b4bff;
 color:white;
 border:none;
@@ -100,7 +113,6 @@ transition:0.3s;
 transform:scale(1.05);
 }
 
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
 filter:invert(1);
@@ -115,18 +127,17 @@ padding-left: 18px;
 .why-list li {
 margin-bottom: 15px;
 font-size: 16px;
-}
-
-.why-list ul {
-margin-top: 5px;
-padding-left: 20px;
-}
-
-.why-list ul li {
 font-size: 14px;
 color: #555;
 }
 
+
+.why-list ul {
+margin-top: 5px;
+padding-left: 20px;
+font-size: 14px;
+color: #555;
+}
 
 /* REVIEWS */
 
@@ -151,6 +162,11 @@ font-size:14px;
 color:#333;
 }
 
+.review-box p i{
+color:#ffc107;
+font-size:15px;
+margin-right:2px;
+}
 
 /* APP DOWNLOAD SECTION */
 
@@ -173,8 +189,6 @@ border-radius:12px;
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* BUTTON */
-
 .app-btn{
 background:#2d2eff;
 color:white;
@@ -184,14 +198,13 @@ border-radius:25px;
 font-weight:bold;
 }
 
+/* FOOTER */
 
 .bus-footer{
 background:black;
 color:white;
-padding:70px 0 20px;   /* TOP SPACE BADHAYA */
+padding:70px 0 20px;   
 }
-
-
 
 .footer-btn-box{
 text-align:center;
@@ -200,6 +213,7 @@ margin-bottom:25px;
 }
 
 .footer-btn{
+text-decoration: none;
 background:#3f44ff;
 color:white;
 border:none;
@@ -216,13 +230,16 @@ color:#aaa;
 margin-top:10px;
 }
 
-.footer-btn:hover{
-background:rgb(49, 29, 158);
+.bus-footer ul li a {
+  text-decoration: none;
+  color: white;          
+  transition: 0.3s ease;
 }
 
+.bus-footer ul li a:hover {
+  color: #ffcc00;        
+}
 
-.review-box p i{
-color:#ffc107;
-font-size:15px;
-margin-right:2px;
+.footer-btn:hover{
+background:rgb(49, 29, 158);
 }
